@@ -1,25 +1,26 @@
 package com.coding.homework;
 
 public class Homework {
-	public static void main(String [] args) {
-		int score = 55;
-		
-		if (score >= 80) {
+	public static void main(String[] args) {
+		int score = 50;
+
+		switch (score) {
+		case 80:
 			System.out.println("Grade : A");
-		}
-		else if (score >= 70) {
+			break;
+		case 70:
 			System.out.println("Grade : B");
-		}
-		else if (score >= 60) {
+			break;
+		case 60:
 			System.out.println("Grade : C");
-		}
-		else if (score >= 50) {
+			break;
+		case 50:
 			System.out.println("Grade : D");
-		}
-		else if (score >= 40) {
+			break;
+		case 40:
 			System.out.println("Grade : F");
-		}
-		else {
+			break;
+		default:
 			System.out.println("Grade : E");
 		}
 	}
