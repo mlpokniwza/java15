@@ -3,21 +3,24 @@ package com.coding.homework;
 public class Homework {
 	public static void main(String [] args) {
 		int score = 55;
-		boolean isHandSome = false;
 		
-		
-		if (isHandSome == true) {
-			System.out.println("Good");
+		if (score >= 80) {
+			System.out.println("Grade : A");
 		}
-		else if (score >= 80) {
-			System.out.println("Good");
+		else if (score >= 70) {
+			System.out.println("Grade : B");
 		}
-		else if (score >= 50 && score <= 79) {
-			System.out.println("normal");
+		else if (score >= 60) {
+			System.out.println("Grade : C");
+		}
+		else if (score >= 50) {
+			System.out.println("Grade : D");
+		}
+		else if (score >= 40) {
+			System.out.println("Grade : F");
 		}
 		else {
-			System.out.println("fail");
+			System.out.println("Grade : E");
 		}
-		
 	}
 }
