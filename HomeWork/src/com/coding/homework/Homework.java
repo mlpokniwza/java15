@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Homework {
 	public static void main(String[] args) {
-		// Lab 6
+		// Lab 9
 		// 6.1
 		int i = 8;
 		while (i <= 10) {
@@ -55,8 +55,8 @@ public class Homework {
 		
 		// Lab 8
 		for(int count=20; count>0; count--) {
-			System.out.print(count + " ");
 			if(count == 11) {
+				System.out.print(count);
 				break;
 			}
 		}
